@@ -1,0 +1,19 @@
+{
+  "name": "template-1",
+  "version": "1.0.0",
+  "description": "Landing page template",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacob Westby",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4"
+  }
+}

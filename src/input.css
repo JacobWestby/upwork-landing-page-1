@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: ProcrastinatingPixie;
+  src: url(/fonts/ProcrastinatingPixie-WyVOO.ttf);
+}
+
+.logo {
+  font-family: ProcrastinatingPixie;
+}
+
+h2,
+p,
+label {
+  color: white;
+}
